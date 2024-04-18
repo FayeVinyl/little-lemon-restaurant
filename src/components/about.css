@@ -1,0 +1,17 @@
+.about-container {
+  display: flex;
+  background-color: #EDEFEE;
+  min-height: 100vh;
+  padding-top: 5%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.about-photo img {
+  max-height: 550px;
+  margin-right: 2em;
+}

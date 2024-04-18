@@ -1,0 +1,34 @@
+.reservations {
+  background-color: #495E57;
+  min-height: 100vh;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+Fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #EDEFEE;
+  min-height: 100vh;
+  padding: 2em;
+  border-radius: 15px;
+  }
+
+label {
+  padding: .5em 1em .5em 0;
+}
+
+input, select, textarea {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  float: right;
+  width: 45%;
+  background-color: #ffffff;
+}
+

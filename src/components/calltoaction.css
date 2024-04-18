@@ -1,0 +1,28 @@
+.hero-section-container {
+  display: flex;
+  background-color: #495E57;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  height: 406px;
+  justify-content: space-between;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hero-section p{
+  max-width: 30ch;
+}
+
+.hero-image {
+  margin-right: 2rem;
+  height: 439px;
+  width: 370px;
+}
+
+.reserve-button {
+  align-self: flex-start;
+}

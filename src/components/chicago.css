@@ -1,0 +1,41 @@
+.chicago-backstory {
+  display: flex;
+  width: 100%;
+  background-color: #EDEFEE;
+}
+
+.backstory {
+  display: flex;
+  width: 100%;
+  float: right;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 6em 1em;
+}
+
+.backstory-photos {
+  max-height: 30rem;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+}
+
+.backstory-photos img {
+  height: 80%;
+  width: 50%;
+  object-fit: cover;
+}
+
+.image-stack-bottom {
+  position: absolute;
+  top: 1;
+  left: 0;
+}
+
+.image-stack-top {
+  position: relative;
+  top: -3rem;
+  left: 8rem;
+  z-index: 1;
+}
+

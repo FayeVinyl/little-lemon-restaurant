@@ -1,42 +1,91 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&family=Markazi+Text:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-width: 65%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+ -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+footer {
+  margin-top: auto
 }
 
-.card {
-  padding: 2em;
+h1, .heading {
+  font-family: 'Markazi Text', serif;
+  font-size: 64px;
 }
 
-.read-the-docs {
-  color: #888;
+h2, .subheading{
+  font-family: 'Markazi Text', serif;
+  font-size: 40px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+
+img {
+  border-radius: 10%;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+ button {
+  color: #333333;
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  font-family: 'Karla', 'sans-serif';
+  box-shadow: rgb(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background-color: #F4CE14;
+  width: auto;
+}
+
+@media screen and (max-width: 700px) {
+	.section__padding {
+		padding: 4rem;
+	}
+
+	.section__margin {
+		margin: 4rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.section__padding {
+		padding: 4rem 2rem;
+	}
+
+	.section__margin {
+		margin: 4rem 2rem;
+	}
 }

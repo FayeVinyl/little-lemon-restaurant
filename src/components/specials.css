@@ -1,0 +1,51 @@
+
+.specials{
+  display: flex;
+  flex-direction: column;
+  background-color: #EDEFEE;
+  padding-top: 3em;
+}
+
+.specials-container {
+  display: flex;
+  padding-top: 2em;
+}
+
+.specials h2 {
+  flex: 1;
+}
+.online-menu-button {
+  margin-right: 2em;
+}
+
+.specials-card-container {
+  display: flex;
+  padding: 2em 0em;
+  max-width: 265px;
+  justify-content: space-between;
+}
+
+.specials-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+  margin: 2rem;
+}
+
+.specials-img {
+  height: 184px;
+  width: 265px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.specials-card h3 {
+  float: left;
+}
+
+.highlight {
+  color: #EE9972;
+  float: right;
+}
+
