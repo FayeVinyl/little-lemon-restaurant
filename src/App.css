@@ -68,6 +68,18 @@ li {
   box-shadow: rgb(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
   background-color: #F4CE14;
   width: auto;
+  cursor: pointer;
+}
+
+/*----Media Queries----*/
+/*Tablet Styles*/
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+}
+/*Desktop Styles*/
+@media screen and (min-width: 1200px) {
+
 }
 
 @media screen and (max-width: 700px) {

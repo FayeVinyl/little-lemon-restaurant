@@ -3,7 +3,7 @@ import salad from '../assets/salad.jpg'
 import bruschetta from '../assets/bruschetta.jpg'
 import lemon from '../assets/lemon.jpg'
 import bike from '../assets/bike.png'
-//import './specials.css'
+import './specials.css'
 
 const Specials = () => {
   return (
