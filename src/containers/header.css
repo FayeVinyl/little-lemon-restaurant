@@ -1,7 +1,33 @@
 header {
-  display: flex;
   background-color: #EDEFEE;
-  justify-content: space-between;
-   align-items: center;
+  font-size: .8em;
 }
 
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li{
+  padding-left: .5em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:link,
+nav a:visited {
+  color: #333;
+}
+
+nav a:hover,
+nav a:active {
+  color: #495E57;
+}
